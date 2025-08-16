@@ -533,6 +533,34 @@ span,.footer__s2s1,.footer__s1s1s1,.footer__s1s1s1,.footer__s1s1s1,.body__explor
   }
 }
 
+.body__explore .body__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .body__explore .body__container img {
+        width: 90%;   /* full width ku near aagum */
+        max-width: 350px;
+        height: auto;
+    }
+
+    .body__explore h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .body__card2 h3, 
+    .body__card2 p, 
+    .body__card2 span {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+}
+
 /* Animation */
 @keyframes slideDown {
   from {
@@ -544,5 +572,6 @@ span,.footer__s2s1,.footer__s1s1s1,.footer__s1s1s1,.footer__s1s1s1,.body__explor
     transform: translateY(0);
   }
 }
+
 
 
