@@ -369,10 +369,10 @@ span,.footer__s2s1,.footer__s1s1s1,.footer__s1s1s1,.footer__s1s1s1,.body__explor
         align-items: center; 
         gap: 20px; 
     }
-    .body__explore .body__container img{ 
-        width: 90%; 
-        max-width: 350px; 
-        height: auto; 
+    .body__explore .body__container img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
     }
     .footer{ padding: 32px 5px; flex-wrap: wrap-reverse; justify-content: center; }
     .footer__s1s1 { display: none; }
